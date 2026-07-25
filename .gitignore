@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Public benchmark data and frozen release assets are distributed separately.
+data/
+artifacts/frozen/
+artifacts/models/
+artifacts/release/
+artifacts/*.tar*
+artifacts/*.zip
+checkpoints/
+*.pt
+*.safetensors
+*.tar.gz
+*.tar.zst
+*.zip
+
+# Generated reproduction and evaluation outputs.
+reproduction/*
+*.log

@@ -1,0 +1,57 @@
+{
+  "seed": 1337,
+  "optimizer": "AdamW",
+  "warmup_ratio": 0.06,
+  "gradient_clip": 1.0,
+  "stages": {
+    "shared_initialization": {
+      "curriculum_rows": 300000,
+      "epochs": 2,
+      "max_length": 384,
+      "stride": 128,
+      "raw_batch_size": 24,
+      "window_chunk_size": 48,
+      "learning_rate": 1.5e-5
+    },
+    "shared_continuation": {
+      "curriculum_rows": 800000,
+      "epochs": 1,
+      "max_length": 512,
+      "stride": 128,
+      "raw_batch_size": 6,
+      "window_chunk_size": 12,
+      "learning_rate": 5e-6
+    },
+    "coverage_expert": {
+      "curriculum_rows": 500000,
+      "optimizer_updates": 800,
+      "max_length": 512,
+      "stride": 128,
+      "raw_batch_size": 6,
+      "window_chunk_size": 12,
+      "learning_rate": 5e-6
+    },
+    "precision_expert": {
+      "curriculum_rows": 300000,
+      "optimizer_updates": 600,
+      "max_length": 512,
+      "stride": 128,
+      "raw_batch_size": 6,
+      "window_chunk_size": 12,
+      "learning_rate": 2e-6
+    },
+    "anchor_repair": {
+      "curriculum_rows": 200000,
+      "epochs": 1,
+      "optimizer_updates": 25000,
+      "max_length": 512,
+      "stride": 128,
+      "raw_batch_size": 8,
+      "window_chunk_size": 8,
+      "learning_rate": 7e-6,
+      "seed": 20260708
+    }
+  },
+  "reproducibility_scope": "The procedure and fixed artifacts are reproducible; neural retraining is not claimed to be bitwise deterministic."
+}
+

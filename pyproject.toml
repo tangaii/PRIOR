@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prior-pii"
+version = "1.0.0"
+description = "Policy- and Risk-Informed Whole-Output Expert Routing for policy-compliant PII detection"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Ai Tang"},
+  {name = "Wei Yuan"},
+  {name = "Fuyou Zhang"},
+  {name = "Xiao Luan"},
+]
+dependencies = []
+
+[project.optional-dependencies]
+model = [
+  "torch>=2.0",
+  "transformers>=4.40",
+  "safetensors>=0.4",
+]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

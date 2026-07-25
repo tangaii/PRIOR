@@ -1,0 +1,13 @@
+{
+  "default_expert": "anchor",
+  "source_routes": {
+    "ai4privacy__pii-masking-openpii-1m": "precision",
+    "ildpil__text-anonymization-benchmark": "coverage",
+    "multipriv": "coverage"
+  },
+  "source_parser": "prefix_before_first_colon",
+  "selection_unit": "complete_prediction_set",
+  "span_fusion": false,
+  "post_selection_modification": false
+}
+

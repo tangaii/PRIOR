@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "row_count": 638204,
+  "inputs": {
+    "anchor": {
+      "filename": "anchor_expert_predictions.jsonl",
+      "size_bytes": 279543633,
+      "sha256": "8efe155203ffcb61cc32a00d7a3078f9a7e8957cdf68e233e4ad5837dd027b52"
+    },
+    "precision": {
+      "filename": "precision_expert_predictions.jsonl",
+      "size_bytes": 283069714,
+      "sha256": "f847c58e2776d4f22aaebef119aefacf7cd8789f7fc5570fdd0d711408a355dc"
+    },
+    "coverage": {
+      "filename": "coverage_expert_predictions.jsonl",
+      "size_bytes": 284311138,
+      "sha256": "b4adc9e1d1262dad3c344502e182ba0e3326c24fed167802817f8b9f09df2845"
+    }
+  },
+  "output": {
+    "filename": "prior_submission.jsonl",
+    "size_bytes": 253418705,
+    "sha256": "f12d15f65576871d42d6d9047ff9011d5a36a0e507f645d4bd6c893fcc30cef0"
+  },
+  "official_test": {
+    "filename": "test.jsonl",
+    "size_bytes": 325034573,
+    "sha256": "e3239668e56aa9dcf81387db90057268fa374b0778b376ba60e0130e385c00c4"
+  }
+}
+

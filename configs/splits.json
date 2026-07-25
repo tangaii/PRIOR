@@ -1,0 +1,10 @@
+{
+  "protocol": "public_retraining_v1",
+  "seed": 1337,
+  "development_fraction": 0.02,
+  "heldout_fraction": 0.02,
+  "assignment": "sha256_seed_sample_id",
+  "development_role": "checkpoint_and_router_selection",
+  "heldout_role": "non_inferiority_gate_only",
+  "hidden_test_role": "final_evaluation_only"
+}

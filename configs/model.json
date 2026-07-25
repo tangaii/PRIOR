@@ -1,0 +1,44 @@
+{
+  "encoder_family": "roberta-base",
+  "num_hidden_layers": 12,
+  "hidden_size": 768,
+  "num_attention_heads": 12,
+  "max_length": 512,
+  "stride": 128,
+  "label_space": [
+    "PERSON_NAME",
+    "ACCOUNT_HANDLE",
+    "CONTACT",
+    "ADDRESS_GEO",
+    "OFFICIAL_ID",
+    "FINANCIAL_ACCOUNT",
+    "AUTH_SECRET",
+    "DIGITAL_ID",
+    "DEMOGRAPHIC_PROFILE",
+    "HEALTH_MEDICAL",
+    "TRANSACTION_ASSET"
+  ],
+  "bio_tag_count": 23,
+  "ignore_labels": ["CONTEXT_MISC"],
+  "background_weight": 0.15,
+  "category_weights": {
+    "PERSON_NAME": 1.4,
+    "ACCOUNT_HANDLE": 1.8,
+    "CONTACT": 1.5,
+    "ADDRESS_GEO": 1.4,
+    "OFFICIAL_ID": 4.0,
+    "FINANCIAL_ACCOUNT": 4.5,
+    "AUTH_SECRET": 5.0,
+    "DIGITAL_ID": 3.0,
+    "DEMOGRAPHIC_PROFILE": 2.7,
+    "HEALTH_MEDICAL": 6.5,
+    "TRANSACTION_ASSET": 3.0
+  },
+  "risk_multipliers": {
+    "LOW": 1.0,
+    "MEDIUM": 1.35,
+    "HIGH": 1.8,
+    "CRITICAL": 2.4
+  }
+}
+

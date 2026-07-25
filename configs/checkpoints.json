@@ -1,0 +1,44 @@
+{
+  "base_model": {
+    "directory": "base_model",
+    "files": {
+      "config.json": {
+        "size_bytes": 1583,
+        "sha256": "5e09f109390c166db8c8d4f978ab57a99c528510d5fd0280e30d60bdacdf9418"
+      },
+      "label_list.json": {
+        "size_bytes": 322,
+        "sha256": "9bd5aae522beea1145860dd6a22b56de8b6c2eaf4271088f59274010e52eb1c4"
+      },
+      "model.safetensors": {
+        "size_bytes": 496296380,
+        "sha256": "8da2b4a2bdf1d6a49bf5377cdd87f5ccec6b4eab989144610ac2d8486517075e"
+      },
+      "tokenizer.json": {
+        "size_bytes": 3558738,
+        "sha256": "7d283998166f2b7da6b466d48948f1fb34a033317e4e3c4127ba9f90e907e4a0"
+      },
+      "tokenizer_config.json": {
+        "size_bytes": 357,
+        "sha256": "be811268a088f4a360e7bd0a48bbea84b1043cf2b13a8d973b6887fdf022fced"
+      }
+    }
+  },
+  "experts": {
+    "coverage": {
+      "filename": "coverage_expert.pt",
+      "size_bytes": 496372849,
+      "sha256": "1b85167ac822ababd17195fc3a9c190ad16a43b01cb0963ce0f27c802bcd7422"
+    },
+    "precision": {
+      "filename": "precision_expert.pt",
+      "size_bytes": 496372849,
+      "sha256": "f48fae8110e8d75440004b253c451a4443f6e28b551ffe693bc59ed62403ca83"
+    },
+    "anchor": {
+      "filename": "anchor_expert.pt",
+      "size_bytes": 496360138,
+      "sha256": "c8947698ade5d95f248cd3390ab76f6c77b604f094c2ca17f73b3b66be7bd9ca"
+    }
+  }
+}

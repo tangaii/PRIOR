@@ -1,0 +1,20 @@
+{
+  "thresholds": {
+    "PERSON_NAME": 0.50,
+    "ACCOUNT_HANDLE": 0.56,
+    "CONTACT": 0.52,
+    "ADDRESS_GEO": 0.54,
+    "OFFICIAL_ID": 0.22,
+    "FINANCIAL_ACCOUNT": 0.22,
+    "AUTH_SECRET": 0.22,
+    "DIGITAL_ID": 0.22,
+    "DEMOGRAPHIC_PROFILE": 0.74,
+    "HEALTH_MEDICAL": 0.20,
+    "TRANSACTION_ASSET": 0.22
+  },
+  "trim_characters": " \t\n\r!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~，。；：、（）【】《》“”‘’「」『』",
+  "empty_after_trim": "restore_original_span",
+  "deduplication": "exact_start_end_label",
+  "retain_distinct_overlaps": true
+}
+
