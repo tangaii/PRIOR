@@ -1,6 +1,6 @@
-# UbiComp 2026 Workshop: Trustworthy Agentic AI (Track 2 - PII-PolicyBench)
+# PRIOR
 
-**PRIOR：Policy- and Risk-Informed Whole-Output Expert Routing for Policy-Compliant
+**Policy- and Risk-Informed Whole-Output Expert Routing for Policy-Compliant
 PII Detection**
 
 PRIOR is the reproducible code release for our third-place PII-PolicyBench
