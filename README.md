@@ -9,12 +9,6 @@ Policy-Compliant PII Detection**
 October 12, 2026 · Ai Tang, Wei Yuan, and Fuyou Zhang<br>
 Chongqing University of Posts and Telecommunications
 
-## Official Certificate
-
-<img src="docs/awards/track2_bronze_award.png" alt="Official Trustworthy Agentic AI 2026 Track 2 Bronze Award certificate for PRIOR" width="820">
-
-[View the original certificate PDF](docs/awards/Track_2_Bronze_Award.pdf)
-
 ## About PRIOR
 
 PRIOR is the reproducible code release for the system ranked **3rd in the
@@ -24,6 +18,12 @@ complementary coverage and precision experts, policy-aligned anchor refinement,
 and source-aware whole-output expert routing. For each input row, the router
 selects one complete expert prediction set; it does not fuse spans across
 experts.
+
+## Official Certificate
+
+<img src="docs/awards/track2_bronze_award.png" alt="Official Trustworthy Agentic AI 2026 Track 2 Bronze Award certificate for PRIOR" width="820">
+
+[View the original certificate PDF](docs/awards/Track_2_Bronze_Award.pdf)
 
 ## Core Results
 
@@ -283,5 +283,11 @@ dataset terms.
 
 ## Citation
 
-Citation metadata is provided in `CITATION.cff`. Venue details can be added
-when the paper record is public.
+Citation metadata, including the preferred paper citation, is provided in
+[CITATION.cff](CITATION.cff). The paper's ACM Reference Format lists:
+
+Ai Tang, Wei Yuan, and Fuyou Zhang. 2026. *PRIOR: Policy-and Risk-Informed
+Whole-Output Expert Routing for Policy-Compliant PII Detection*. In
+*Companion of the 2026 ACM International Joint Conference on Pervasive and
+Ubiquitous Computing* (UbiComp Companion '26). ACM.
+DOI: `10.1145/3798063.3839144`.

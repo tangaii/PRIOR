@@ -11,6 +11,21 @@ authors:
     given-names: Wei
   - family-names: Zhang
     given-names: Fuyou
+preferred-citation:
+  type: conference-paper
+  title: "PRIOR: Policy-and Risk-Informed Whole-Output Expert Routing for Policy-Compliant PII Detection"
+  authors:
+    - family-names: Tang
+      given-names: Ai
+    - family-names: Yuan
+      given-names: Wei
+    - family-names: Zhang
+      given-names: Fuyou
+  collection-title: "Companion of the 2026 ACM International Joint Conference on Pervasive and Ubiquitous Computing"
+  year: 2026
+  publisher:
+    name: "ACM"
+  doi: "10.1145/3798063.3839144"
 keywords:
   - personally identifiable information
   - sequence labeling
