@@ -27,25 +27,6 @@ the paper *PRIOR: Policy-and Risk-Informed Whole-Output Expert Routing for Polic
 
 [View the original certificate PDF](docs/awards/Track_2_Bronze_Award.pdf)
 
-## Core Results
-
-The frozen system produced the official hidden-test result on **638,204
-documents**:
-
-| Metric | Result |
-| --- | ---: |
-| Final leaderboard rank | **3rd** |
-| Policy Compliance Rate (PCR) | **96.64%** (`0.9663978916`) |
-| PCR improvement over organizer baseline | **+38.33 percentage points** |
-| Weighted PII coverage | 99.10% (`0.9909503601`) |
-| Critical coverage | 99.73% (`0.9972596467`) |
-| False-positive character rate | 0.25% (`0.0024979195`) |
-| Hidden-test documents | 638,204 |
-| Missing / extra rows | 0 / 0 |
-
-The final submission contains 253,418,705 bytes and has SHA-256
-`f12d15f65576871d42d6d9047ff9011d5a36a0e507f645d4bd6c893fcc30cef0`.
-
 ## PRIOR Method Framework
 
 ![PRIOR method framework](prior_overview.png)
@@ -75,6 +56,22 @@ Supporting contracts are implemented in:
 - `src/prior/training.py`: deterministic training stages;
 - `src/prior/validation.py`: row, schema, identity, and offset checks;
 - `src/prior/policy_evaluation.py`: organizer-released PCR evaluation logic.
+
+## Core Results
+
+The frozen system produced the official hidden-test result on **638,204
+documents**:
+
+| Metric | Result |
+| --- | ---: |
+| Final leaderboard rank | **3rd** |
+| Policy Compliance Rate (PCR) | **96.64%** (`0.9663978916`) |
+| PCR improvement over organizer baseline | **+38.33 percentage points** |
+| Weighted PII coverage | 99.10% (`0.9909503601`) |
+| Critical coverage | 99.73% (`0.9972596467`) |
+| False-positive character rate | 0.25% (`0.0024979195`) |
+| Hidden-test documents | 638,204 |
+| Missing / extra rows | 0 / 0 |
 
 ## Repository
 
