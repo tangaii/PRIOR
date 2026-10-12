@@ -3,14 +3,6 @@
 **PRIOR: Policy-and Risk-Informed Whole-Output Expert Routing for
 Policy-Compliant PII Detection**
 
-## 🥉 Bronze Award — Track 2: PII-PolicyBench
-
-**Trustworthy Agentic AI 2026 · In conjunction with UbiComp/ISWC 2026**<br>
-October 12, 2026 · Ai Tang, Wei Yuan, and Fuyou Zhang<br>
-Chongqing University of Posts and Telecommunications
-
-## About PRIOR
-
 PRIOR is the reproducible code release for the system ranked **3rd in the
 PII-PolicyBench final leaderboard**; this leaderboard result is separate from
 the workshop's Bronze Award. The method combines risk-aware span tagging,
@@ -19,7 +11,17 @@ and source-aware whole-output expert routing. For each input row, the router
 selects one complete expert prediction set; it does not fuse spans across
 experts.
 
-## Official Certificate
+## Award
+
+🏆 **Bronze Award — Track 2: PII-PolicyBench**
+
+Prior received the Bronze Award at **Trustworthy Agentic AI 2026**, held
+in conjunction with **UbiComp/ISWC 2026**. The official certificate recognizes
+the paper *PRIOR: Policy-and Risk-Informed Whole-Output Expert Routing for Policy-Compliant PII Detection*.
+
+- **Authors:** Ai Tang, Wei Yuan, Fuyou Zhang
+- **Institution:** Chongqing University of Posts and Telecommunications
+- **Award date:** 12 October 2026
 
 <img src="docs/awards/track2_bronze_award.png" alt="Official Trustworthy Agentic AI 2026 Track 2 Bronze Award certificate for PRIOR" width="820">
 
