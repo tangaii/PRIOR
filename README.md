@@ -1,6 +1,6 @@
 # PRIOR
 
-**PRIOR: Policy-and Risk-Informed Whole-Output Expert Routing for
+**Policy-and Risk-Informed Whole-Output Expert Routing for
 Policy-Compliant PII Detection**
 
 PRIOR is the reproducible code release for the system ranked **3rd in the
@@ -23,9 +23,15 @@ the paper *PRIOR: Policy-and Risk-Informed Whole-Output Expert Routing for Polic
 - **Institution:** Chongqing University of Posts and Telecommunications
 - **Award date:** 12 October 2026
 
-<img src="docs/awards/track2_bronze_award.png" alt="Official Trustworthy Agentic AI 2026 Track 2 Bronze Award certificate for PRIOR" width="820">
+<p align="center">
+  <a href="docs/awards/Track_2_Bronze_Award.pdf">
+    <img src="docs/awards/track2_bronze_award.png" width="780" alt="Official Track 2: PII-PolicyBench Bronze Award certificate for PRIOR at Trustworthy Agentic AI 2026">
+  </a>
+</p>
 
-[View the original certificate PDF](docs/awards/Track_2_Bronze_Award.pdf)
+<p align="center">
+  <a href="docs/awards/Track_2_Bronze_Award.pdf">View or download the official certificate (PDF)</a>
+</p>
 
 ## PRIOR Method Framework
 
