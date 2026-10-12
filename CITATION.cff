@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use PRIOR, please cite the accompanying paper."
 type: software
-title: "PRIOR: Policy- and Risk-Informed Whole-Output Expert Routing for Policy-Compliant PII Detection"
+title: "PRIOR: Policy-and Risk-Informed Whole-Output Expert Routing for Policy-Compliant PII Detection"
 version: 1.0.0
 date-released: 2026-07-24
 authors:
@@ -11,8 +11,6 @@ authors:
     given-names: Wei
   - family-names: Zhang
     given-names: Fuyou
-  - family-names: Luan
-    given-names: Xiao
 keywords:
   - personally identifiable information
   - sequence labeling

@@ -1,31 +1,52 @@
 # PRIOR
 
-**Policy- and Risk-Informed Whole-Output Expert Routing for Policy-Compliant
-PII Detection**
+**PRIOR: Policy-and Risk-Informed Whole-Output Expert Routing for
+Policy-Compliant PII Detection**
 
-PRIOR is the reproducible code release for our third-place PII-PolicyBench
-Track 2 system. It combines risk-aware BIO tagging, complementary coverage and
-precision experts, a policy-aligned anchor, and deterministic source-aware
-whole-output routing.
+## 🥉 Bronze Award — Track 2: PII-PolicyBench
 
-![PRIOR overview](prior_overview.png)
+**Trustworthy Agentic AI 2026 · In conjunction with UbiComp/ISWC 2026**<br>
+October 12, 2026 · Ai Tang, Wei Yuan, and Fuyou Zhang<br>
+Chongqing University of Posts and Telecommunications
 
-## Result
+## Official Certificate
 
-The frozen system produced the following official hidden-test result on
-638,204 documents:
+<img src="docs/awards/track2_bronze_award.png" alt="Official Trustworthy Agentic AI 2026 Track 2 Bronze Award certificate for PRIOR" width="820">
+
+[View the original certificate PDF](docs/awards/Track_2_Bronze_Award.pdf)
+
+## About PRIOR
+
+PRIOR is the reproducible code release for the system ranked **3rd in the
+PII-PolicyBench final leaderboard**; this leaderboard result is separate from
+the workshop's Bronze Award. The method combines risk-aware span tagging,
+complementary coverage and precision experts, policy-aligned anchor refinement,
+and source-aware whole-output expert routing. For each input row, the router
+selects one complete expert prediction set; it does not fuse spans across
+experts.
+
+## Core Results
+
+The frozen system produced the official hidden-test result on **638,204
+documents**:
 
 | Metric | Result |
 | --- | ---: |
-| Policy Compliance Rate | **0.9663978916** |
-| Weighted PII coverage | 0.9909503601 |
-| Critical coverage | 0.9972596467 |
-| False-positive character rate | 0.0024979195 |
+| Final leaderboard rank | **3rd** |
+| Policy Compliance Rate (PCR) | **96.64%** (`0.9663978916`) |
+| PCR improvement over organizer baseline | **+38.33 percentage points** |
+| Weighted PII coverage | 99.10% (`0.9909503601`) |
+| Critical coverage | 99.73% (`0.9972596467`) |
+| False-positive character rate | 0.25% (`0.0024979195`) |
+| Hidden-test documents | 638,204 |
 | Missing / extra rows | 0 / 0 |
-| Final rank | **3** |
 
 The final submission contains 253,418,705 bytes and has SHA-256
 `f12d15f65576871d42d6d9047ff9011d5a36a0e507f645d4bd6c893fcc30cef0`.
+
+## PRIOR Method Framework
+
+![PRIOR method framework](prior_overview.png)
 
 ## Method
 
